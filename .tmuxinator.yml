@@ -1,0 +1,9 @@
+name: svelte-preprocess-cljs
+root: .
+windows:
+  - VIM:
+      layout: even-horizontal
+      panes:
+        - nvim
+        -
+  - GIT: ssh-agent zsh

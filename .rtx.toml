@@ -1,0 +1,4 @@
+[tools]
+node = '18.17.1'
+clojure = "1.11.1.1403"
+java = "temurin-jre-17.0.8+7"

@@ -1,0 +1,26 @@
+{
+  "name": "svelte-preprocess-cljs",
+  "version": "0.0.4",
+  "description": "ClojureScript preprocessor for Svelte using Squint",
+  "main": "src/main.js",
+  "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jruz/svelte-preprocess-cljs.git"
+  },
+  "keywords": [
+    "clojurescript",
+    "cljs",
+    "squint",
+    "squint-cljs",
+    "svelte"
+  ],
+  "author": "jruz",
+  "license": "ISC",
+  "dependencies": {
+    "squint-cljs": "^0.1.16"
+  },
+  "devDependencies": {
+    "prettier": "^3.0.2"
+  }
+}

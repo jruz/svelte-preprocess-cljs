@@ -1,0 +1,9 @@
+{:paths ["src"]
+ :tasks
+ {tmux (shell "tmuxinator local")
+  shell (shell "nix-shell")
+  lint (shell "clj-kondo --lang cljs --lint src")
+  prettier (shell "npx prettier . --write")
+  squint (shell "npx squint compile --extension js src/main.cljs")
+  build {:depends [squint prettier]}}}
+
